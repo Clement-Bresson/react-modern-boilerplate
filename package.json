@@ -4,20 +4,20 @@
   "description": "Modern boilerplate for React project",
   "main": "index.js",
   "scripts": {
-    "build":
-      "yarn run clean-dist && yarn run copy-public && ./scripts/build.js",
-    "build-production":
-      "yarn run lint && yarn run test && yarn run clean-dist && yarn run copy-public && ./scripts/build.js production",
+    "build": "yarn run clean-dist && yarn run copy-public && ./scripts/build.js",
+    "build-production": "yarn run lint && yarn run test && yarn run clean-dist && yarn run copy-public && ./scripts/build.js production",
     "build-storybook": "build-storybook",
     "clean-dist": "./scripts/clean-dist.js",
     "copy-public": "./scripts/copy-public.js",
     "lint": "eslint src/ scripts/ config/",
-    "start":
-      "yarn run clean-dist && yarn run copy-public && webpack-dev-server --config ./config/webpack.development.js",
+    "predeploy": "yarn build-production",
+    "deploy": "gh-pages -d dist",
+    "start": "yarn run clean-dist && yarn run copy-public && webpack-dev-server --config ./config/webpack.development.js",
     "storybook": "start-storybook -p 6006",
     "test": "jest --coverage"
   },
   "author": "Clement Bresson",
+  "homepage": "http://clement-bresson.github.io/react-modern-boilerplate",
   "license": "MIT",
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.14",
@@ -44,6 +44,7 @@
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "fs-extra": "^5.0.0",
+    "gh-pages": "^1.1.0",
     "jest": "^22.4.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
@@ -60,6 +61,8 @@
     "webpack-merge": "^4.1.1"
   },
   "jest": {
-    "setupFiles": ["./setupTests.js"]
+    "setupFiles": [
+      "./setupTests.js"
+    ]
   }
 }
