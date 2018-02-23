@@ -37,7 +37,12 @@ export const App = ({ clickCount, incrementClickCount }) => {
       </p>
       <p>Example Redux click counter: {clickCount}</p>
       <p>
-        <a href="#">View on Github</a>
+        <a
+          target="_blank"
+          href="https://github.com/Clement-Bresson/react-modern-boilerplate"
+        >
+          View on Github
+        </a>
       </p>
     </Wrapper>
   )
