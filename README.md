@@ -2,6 +2,8 @@
 
 An **opiniated** (in term of technologies used) boilerplate for any modern React App.
 
+View [DEMO](https://clement-bresson.github.io/react-modern-boilerplate/)
+
 ## This boilerplate includes :
 - React 16
 - Redux (with a simple example)
