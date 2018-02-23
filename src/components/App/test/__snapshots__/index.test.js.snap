@@ -24,7 +24,7 @@ ShallowWrapper {
           Modern React boilerplate
         </h1>,
         <p>
-          React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint
+          React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint, Styled-components
         </p>,
         <p>
           Example Redux click counter: 
@@ -59,10 +59,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint",
+          "children": "React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint, Styled-components",
         },
         "ref": null,
-        "rendered": "React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint",
+        "rendered": "React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint, Styled-components",
         "type": "p",
       },
       Object {
@@ -124,7 +124,7 @@ ShallowWrapper {
             Modern React boilerplate
           </h1>,
           <p>
-            React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint
+            React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint, Styled-components
           </p>,
           <p>
             Example Redux click counter: 
@@ -159,10 +159,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint",
+            "children": "React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint, Styled-components",
           },
           "ref": null,
-          "rendered": "React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint",
+          "rendered": "React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint, Styled-components",
           "type": "p",
         },
         Object {

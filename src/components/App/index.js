@@ -33,7 +33,8 @@ export const App = ({ clickCount, incrementClickCount }) => {
     <Wrapper onClick={incrementClickCount}>
       <h1>Modern React boilerplate</h1>
       <p>
-        React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint
+        React 16, Redux, Storybook 3, Jest & Enzyme, Webpack 3, Babel, Eslint,
+        Styled-components
       </p>
       <p>Example Redux click counter: {clickCount}</p>
       <p>
