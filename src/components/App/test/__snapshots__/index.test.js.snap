@@ -32,7 +32,8 @@ ShallowWrapper {
         </p>,
         <p>
           <a
-            href="#"
+            href="https://github.com/Clement-Bresson/react-modern-boilerplate"
+            target="_blank"
           >
             View on Github
           </a>
@@ -87,7 +88,8 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <a
-            href="#"
+            href="https://github.com/Clement-Bresson/react-modern-boilerplate"
+            target="_blank"
           >
             View on Github
           </a>,
@@ -99,7 +101,8 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "View on Github",
-            "href": "#",
+            "href": "https://github.com/Clement-Bresson/react-modern-boilerplate",
+            "target": "_blank",
           },
           "ref": null,
           "rendered": "View on Github",
@@ -129,7 +132,8 @@ ShallowWrapper {
           </p>,
           <p>
             <a
-              href="#"
+              href="https://github.com/Clement-Bresson/react-modern-boilerplate"
+              target="_blank"
             >
               View on Github
             </a>
@@ -184,7 +188,8 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <a
-              href="#"
+              href="https://github.com/Clement-Bresson/react-modern-boilerplate"
+              target="_blank"
             >
               View on Github
             </a>,
@@ -196,7 +201,8 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "View on Github",
-              "href": "#",
+              "href": "https://github.com/Clement-Bresson/react-modern-boilerplate",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": "View on Github",
